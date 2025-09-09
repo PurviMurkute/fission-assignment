@@ -39,12 +39,12 @@ const Hero = () => {
               Accelerate
             </h1>
 
-            <p className="text-xl font-medium">
+            <p className="text-lg md:text-xl md:font-medium pb-5 md:pb-0">
               Redefining user experiences through Behavioural Science & AI
             </p>
           </div>
           <div className="md:absolute left-0 right-0 bottom-0 pt-10">
-            <div className="max-w-7xl mx-auto px-6 py-5">
+            <div className="max-w-3xl md:max-w-7xl mx-auto px-6 py-5">
               <div className="flex flex-col md:flex-row items-center gap-8">
                 <p className="text-md md:text-lg md:font-medium mr-8">
                   Your trusted{" "}
@@ -120,7 +120,7 @@ const Hero = () => {
               animate={{ x: 0 }}
               exit={{ x: "-100%" }}
               transition={{ type: "tween", duration: 0.4 }}
-              className="w-[300px] fixed top-0 left-0 text-gray-500 bg-white p-5 z-20 overflow-y-auto"
+              className="w-[300px] fixed top-0 left-0 h-screen text-gray-500 bg-white p-5 z-20 overflow-y-auto"
             >
               <div className="flex justify-between">
                 <p className="text=lg">Storage Preferences</p>
